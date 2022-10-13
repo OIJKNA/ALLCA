@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #4a5a6c;
+    width: 100%;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+nav .logo, img{
+    width: 200px;
+    padding: 10px ;
+    overflow: hidden;
+}
+nav ul li{
+    display: inline-block;
+    margin: 18px 80px;
+    padding: 6px 9px;
+    
+}
+ a{
+    color: #040404;
+    text-decoration: none;
+    margin: auto;
+ }
+ .hero img{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    margin: auto;
+ }
+ .hero img, img{
+    width: 60%;
+    padding: 15px 0;
+    border-radius: 28px;
+ }
+  nav p{
+    color: rgb(11, 185, 248);
+    text-transform: unset;
+    height: 60%;
+    width: 100%;
+    margin: 0 50px;
+    padding: 0 80px;
+   letter-spacing: 1px;
+ }
+ .containre{
+   color: #b6b059;
+   padding: 0 12px;
+ }
+ 
+ 
+ .services{
+    
+ }
+ .service{
+    text-align: center;
+
+ }
+.service-titel{
+   color: #dda8a6;
+
+}
+.service-text{
+   color: #fc5165;
+   padding: 0 27px;
+}
+ @media ( min-width:950px) and ( max-width:1150px){
+   
+ }
